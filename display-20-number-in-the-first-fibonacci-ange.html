@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20 number on The first fibonacci range</title>
+</head>
+<body>
+    <script>
+        let num1 = 0;
+        let num2 = 1 ;
+        let num ;
+        let cont = parseInt(prompt("Enter the range"));
+        for (let i = 0; i <cont;i++) {
+            document.write(num1 + '<br/>');
+            num = num1 + num2;
+            num1 = num2;
+            num2 = num;
+        }
+
+
+
+    </script>
+</body>
+</html>

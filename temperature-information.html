@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>temperature information</title>
+</head>
+<body>
+    <script>
+        let Celsius = 0;
+        do {
+            Celsius = parseInt(prompt('Enter the temperature '));
+            if (Celsius <= 20) {
+                alert("The temperature is too low ,Please increase the temperature");
+
+            } else if (Celsius >= 100) {
+                alert("The temperature is too high ,Please Please reduce the temperature");
+            }
+        } while (Celsius <= 20 || Celsius >= 100)
+        alert("suitable temperature");
+
+    </script>
+</body>
+</html>
